@@ -1,0 +1,106 @@
+/* Footer section starting  */
+
+.footer {
+    background-image: url(../../asset/footer-pattern.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.footer h1 {
+    color: #fff;
+    font-size: 22px;
+}
+
+.footer p {
+    color: #fff;
+    font-size: 16px;
+}
+
+.box-shape {
+    background-color: var(--primary-color);
+    overflow-x: hidden;
+    width: 100%;
+    line-height: 0;
+    direction: ltr;
+
+}
+
+.box-shape svg {
+    color: #f1eff1dc;
+    width: calc(200% + 1.3px);
+    height: 160px;
+    transform: translateX(-50%) rotateY(180deg) scaleX(180deg);
+    display: block;
+    overflow-x: hidden;
+}
+
+.box-shape svg:not(:root) {
+    overflow-x: hidden;
+}
+
+.box-shape svg:not([fill]) {
+    fill: currentColor;
+    overflow-x: hidden;
+}
+
+.upper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer .upper img {
+    height: 135px;
+    width: 220px;
+}
+
+.upper .contact-second .icons {
+    margin-top: 20px;
+}
+
+.upper .contact-second .icons .icon-side {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 16px;
+    color: #fff;
+    font-family: serif;
+}
+
+.upper .contact-second .icons p {
+    font-size: 18px;
+    color: #fff;
+    height: 35px;
+    min-width: 25px;
+    margin-bottom: 12px;
+}
+
+/* footer right conotainer style */
+.upper .social-second .icons-second {
+    margin-top: 30px;
+}
+
+/* .upper .social-second .icons-second a {
+    text-decoration: none;
+    
+} */
+
+.upper .social-second .icons-second a {
+    font-size: 22px;
+    margin-left: 20px;
+    color: white;
+}
+
+.footer hr {
+    background-color: #BDBDBD;
+    margin-left: 70px;
+    width: 90%;
+}
+
+.doc {
+    margin-top: 15px;
+    text-align: center;
+    padding-bottom: 15px;
+}

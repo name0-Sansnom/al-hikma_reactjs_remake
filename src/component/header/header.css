@@ -1,0 +1,145 @@
+.top {
+    background-color: var(--primary-color);
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+.top .header__address {
+    display: flex;
+}
+
+.top .header__address p {
+    font-size: 16px;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.top .header__socials {
+    margin: auto 1rem;
+}
+
+.top .header__socials a {
+    font-size: 18px;
+    color: #fff;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+/* ======== Navbar style  ============ */
+
+nav:after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+nav .logo{
+    float: left;
+    /* text-transform: uppercase; */
+    /* font-size: 25px; */
+    /* font-weight: 600; */
+    /* line-height: 50px; */
+    padding-left: 100px; 
+    /* display: flex; */
+    margin-top: 10px;
+}
+nav .logo img{
+        height: 45px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 40px;
+    margin-top: 1rem;
+    list-style: none;
+    position: relative;
+    /* z-index: 9; */
+}
+
+nav ul li {
+    /* float: left; */
+    display: inline-block;
+    /* background: #fff; */
+    margin: 0 5px;
+    /* z-index: 1; */
+}
+
+nav ul li a {
+    color: var(--primary-color);
+    line-height: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    /* z-index: 9; */
+}
+
+nav ul li a:hover {
+    color: white;
+    background-color: var(--primary-color);
+    /* z-index: 10; */
+}
+
+nav ul ul {
+    position: absolute;
+    top: 90px;
+    opacity: 0;
+    visibility: hidden;
+    transition: top .3s;
+}
+
+nav ul li:hover>ul {
+    top: 18px;
+    opacity: 1;
+    visibility: visible;
+    z-index: 9;
+}
+
+nav ul ul li {
+    position: relative;
+    /* margin: 0px; */
+    width: 150px;
+    float: none;
+    display: list-item;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+nav ul ul li a {
+    line-height: 50px;
+}
+
+nav ul .sub-links li{
+    /* background-color: rgba(228, 224, 224, 0.596); */
+    color:var(--primary-color);
+    text-align: center;
+    z-index: 11;
+}
+
+.show,
+.icon,
+input {
+    display: none;
+
+}
+
+/* below slider first section starting */
+.section-one {
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+    background-color: #8123ad;
+    padding-top: 50px;
+
+}
+
+.section-one img {
+    height: 110px;
+    width: 110px;
+    border-radius: 3.5px;
+}
+
+.section-one {
+    color: white;
+    padding-right: 100px;
+}
