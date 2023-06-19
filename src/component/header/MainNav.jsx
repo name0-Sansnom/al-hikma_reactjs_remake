@@ -4,6 +4,7 @@ import Home from '../../pages/Home';
 import About from '../../pages/About';
 import Programs from '../../pages/Programs';
 import Contact from '../../pages/Contact';
+import Event from '../../pages/Event';
 const MainNav = () => {
   return (
     <Routes>
@@ -12,6 +13,7 @@ const MainNav = () => {
       <Route path="/about" element={<About />}/>
       <Route path="/program" element={<Programs />}/>
       <Route path="/contact" element={<Contact />}/>
+      <Route path="/Event" element={<Event />}/>
 
     </Routes>
   )

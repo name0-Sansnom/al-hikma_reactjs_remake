@@ -57,12 +57,12 @@ const About = () => {
 
         <div class="statistics">
           <div>
-            <h1 class="num" data-val="300"></h1>
+            <h1 className="num" data-val="300"></h1>
             <p>Registered Students</p>
           </div>
 
           <div>
-            <h1 class="num" data-val="100"></h1>
+            <h1 className="num" data-val="100"></h1>
             <p>Teaching Staff</p>
           </div>
 
